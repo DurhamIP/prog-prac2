@@ -27,24 +27,28 @@ including a sunset that moved the sun across the sky. Here we would like you
 to move the steps for performing the sunset (or add some) into a separate
 method in the _Picture_ class that can be called when required, and another for
 sunrise. This way you can control the passing of the days.
-__Hint:__ To get the sun to move more slowly, you can use the
+
+  __Hint:__ To get the sun to move more slowly, you can use the
 `slowMoveHorizontal(int distance)` and
 `slowMoveVertical(int distance)` methods.
 Try adding a tree with some fruit on it, and a method that drops the fruit to the
 ground.
+
 2. Using the _Turtle_ project, add methods to draw pentagons and hexagons inside the
 _PictureMaker_ class, with a parameter specifying the length of sides. 
 Try changing the colour of the pen doing the drawing. You can add a set of
 methods to the _PictureMaker_ class to choose a colour, or a single method that
 takes a _Color_ object as a parameter. A selection of possible colours are
-listed in the _Color_ class
-__Hint:__ Java was produced by an American company, so American spellings
+listed in the _Color_ class.
+
+  __Hint:__ Java was produced by an American company, so American spellings
 such as “color” are used, e.g. for a turtle called fred, the code to change
 colour would be: `fred.setColor(Color.blue);`
 
 3. In the Lab-Classes Project, add a method to _LabClass_, based on the
 `printList` method, that prints out the credits for each student.
-__Hint:__ The `printList` method shows how to access all the students in the
+
+  __Hint:__ The `printList` method shows how to access all the students in the
 list of enrolled students.
 When a student enrols into the lab-class, they are given a set number of
 credits to start with, and have some existing credits from previous courses.
@@ -68,7 +72,8 @@ fruit drop off the tree and re- grow.
 Add a method that moves the whole picture around by a specified amount.
 With multiple instances of the picture class, you can then lay out a street of
 houses.
-__Extra:__ Add a method for drawing the house that takes two numbers as
+
+  __Extra:__ Add a method for drawing the house that takes two numbers as
 parameters to give the dimensions of the picture. Make sure your house
 fits inside these dimensions, you may want to move the objects around a
 bit as you resize the different parts.
@@ -84,7 +89,8 @@ polygon is a different colour.
 over all, as well as what the average mark of all the students enrolled is. To
 find this out, add a method to calculate the average score for the students
 enrolled in the class, and print out the result.
-__Hint:__ Create a variable before you start looping through the list of students,
+
+  __Hint:__ Create a variable before you start looping through the list of students,
 and add the credits to this variable as you go through the list. This can then
 be averaged and printed out when you have finished.
 
