@@ -39,7 +39,7 @@ _PictureMaker_ class, with a parameter specifying the length of sides.
 Try changing the colour of the pen doing the drawing. You can add a set of
 methods to the _PictureMaker_ class to choose a colour, or a single method that
 takes a _Color_ object as a parameter. A selection of possible colours are
-listed in the _Color_ class.
+listed in the _Color_ class.
 
   __Hint:__ Java was produced by an American company, so American spellings
 such as “color” are used, e.g. for a turtle called fred, the code to change
