@@ -1,8 +1,8 @@
-#Introduction to Programming
+# Introduction to Programming
 
-##Practical 2
+## Practical 2
 
-###Instructions
+### Instructions
 
 BlueJ is available on the CIS machines in the laboratories and you can also install it on your own machines by downloading it from 
 
@@ -10,7 +10,7 @@ BlueJ is available on the CIS machines in the laboratories and you can also inst
 
 You will also need to complete Practical 1 first, you will use those files in this practical.
 
-###Level 1: Adding More Interaction
+### Level 1: Adding More Interaction
 So far, the operations we have seen have involved numerical values. We can
 instead use existing variables
 
@@ -57,7 +57,7 @@ These should be entered when the student enrols, so extend the
 Over the course of the lab-classes, students can gain and lose credits. Try
 adding in a way of handling this.
 
-###Level 2: Calling our own Methods
+### Level 2: Calling our own Methods
 
 To call a method that is within the same class definition, all we need to do is use the method name and any parameters. For example, in the
 _PictureMaker_ class in the Turtle Project, if we wanted to call the
@@ -94,7 +94,7 @@ enrolled in the class, and print out the result.
 and add the credits to this variable as you go through the list. This can then
 be averaged and printed out when you have finished.
 
-###Level 3: Further Modelling
+### Level 3: Further Modelling
 
 At this point, we would like you to have a go at starting to model a slightly
 more complicated program based on The Botanic Gardens scenario.
@@ -105,7 +105,7 @@ information on stocks of flower seeds and plantings. They will use the system
 to determine such things as when to order new stocks, when to sow seeds, in
 which beds seeds have been sown, and when they are expected to bloom.
 
-####Step 1: Modelling Types of Flower
+#### Step 1: Modelling Types of Flower
 
 The system must maintain information on all the species of flowering plant in
 the gardens. The data for a species consists of its name, its genus and its
@@ -114,7 +114,7 @@ from sowing to bloom. Assuming that a species data type is required, propose
 a name for the class, propose suitable fields, propose methods for reporting
 their values (give the method signatures and brief notes on behaviour).
 
-####Step 2: Modelling Flower Beds
+#### Step 2: Modelling Flower Beds
 
 Information needs to be stored on flower beds. A bed has a size, usually
 expressed in square metres and an alphanumeric identity such as "bed15".
@@ -127,14 +127,14 @@ updated. Assuming that a flower bed data type is required:
 3. propose likely methods for manipulating the data (in each case give the
 signature and note the behaviour).
 
-####Step 3: Stock Records
+#### Step 3: Stock Records
 The system must keep track of the quantities of seeds in stock. Each stock
 record consists of the quantity, the species, and a best before date. Records
 are updated when seeds are sown. Your challenge is as with the earlier
 exercises. A point to note for this one is that, you can assume the existence of
 other data types to make the task easier.
 
-####Step 4: Planting Records
+#### Step 4: Planting Records
 A planting record is used to keep track of what seeds have been planted
 where and when. In more detail, a planting occurs in a particular bed and it
 comprises a certain quantity of a particular species of flowering plant. The
